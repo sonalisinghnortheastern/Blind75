@@ -1,0 +1,43 @@
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        // Map<Character,Integer> hm= new HashMap<>();
+        // char[] sChar= s.toCharArray();
+        // char[] tChar= t.toCharArray();
+        // for(Character val: sChar){
+        //     if(hm.containsKey(val)){
+        //         int count=hm.get(val);
+        //         count++;
+        //         hm.put(val,count);
+        //     }
+        //     else{
+        //         hm.put(val,1);
+        //     }
+        // }
+        // for(Character val: tChar){
+        //     if(hm.containsKey(val)){
+        //         int count=hm.get(val);
+        //         count--;
+        //         if(count==0){
+        //             hm.remove(val);
+        //         }
+        //         else{
+        //             hm.put(val,count);
+        //         }
+                
+        //     }
+        //     else{
+        //         return false;
+        //     }
+        // }
+        // return hm.size()==0?true:false;
+        if(s.length()!=t.length()) return false;
+        char[] sChar= s.toCharArray();
+        char[] tChar= t.toCharArray();
+        Arrays.sort(sChar);
+        Arrays.sort(tChar);
+        for(int i=0;i<sChar.length;i++){
+            if(sChar[i]!=tChar[i]) return false;
+        }
+        return true;
+    }
+}
