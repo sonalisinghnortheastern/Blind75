@@ -16,3 +16,5 @@ Question7) 659 · Encode and Decode Strings
 Question8) 128. Longest Consecutive Sequence
 
 Question9) 125. Valid Palindrome
+
+Question10) 167. Two Sum II - Input Array Is Sorted
