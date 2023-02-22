@@ -12,3 +12,5 @@ Question5) 347. Top K Frequent Elements
 Question6) 36. Valid Sudoku
 
 Question7) 659 · Encode and Decode Strings
+
+Question8) 128. Longest Consecutive Sequence
