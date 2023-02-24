@@ -20,3 +20,5 @@ Question9) 125. Valid Palindrome
 Question10) 167. Two Sum II - Input Array Is Sorted
 
 Question11) 11. Container With Most Water
+
+Question12) 42. Trapping Rain Water
